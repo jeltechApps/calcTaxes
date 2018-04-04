@@ -42,7 +42,7 @@ const calcExclusiveTax = (price: number, rates: Rates): Taxes => {
     }
   });
 
-  preCompoundTotalTax = _(taxes).reduce((a, b) => a.total + b.total, 0);
+  preCompoundTotalTax = _.sumBy(taxes, "total");
 
   _(rates).forEach(tax => {
     if (tax.compound) {

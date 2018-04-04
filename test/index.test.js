@@ -34,7 +34,7 @@ describe("calcTaxes", () => {
       { id: 1, rate: "5.0000", compound: false },
       { id: 2, rate: "8.5000", compound: true }
     ];
-    expect(calcTaxes(100, rates)).toEqual({
+    expect(calcTaxes(100, rates, true)).toEqual({
       taxes: [{ id: 1, total: 4.3889 }, { id: 2, total: 7.8341 }],
       totalTax: 12.223
     });

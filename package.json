@@ -36,8 +36,7 @@
   },
   "watch": {
     "test": "{src,test}/*.js",
-    "lint": "{src,test}/*.js",
-    "build": "src"
+    "lint": "{src,test}/*.js"
   },
   "jest": {
     "testEnvironment": "node"
@@ -46,7 +45,9 @@
     "woocommerce",
     "tax"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.5"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",

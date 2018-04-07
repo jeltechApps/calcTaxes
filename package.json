@@ -1,10 +1,10 @@
 {
   "name": "calc-taxes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My node module",
   "license": "MIT",
   "repository": "kilbot/calcTaxes",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "author": {
     "name": "Paul Kilmurray",
     "email": "paul@kilbot.com.au",

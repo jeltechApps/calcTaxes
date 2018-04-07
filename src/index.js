@@ -1,10 +1,6 @@
 // @flow
 import _ from "lodash";
 
-/**
- * This module calculates inclusive and exclusive taxes
- */
-
 type Rate = {
   id: number,
   rate: string,
